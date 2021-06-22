@@ -1,0 +1,129 @@
+
+
+/* =====================Start Medium device max-width 992px area================*/
+
+
+@media screen and (max-width: 991.98px) {
+
+.logo {
+	width: 90px;
+	position: relative;
+	padding: 10px 0;
+	box-sizing: border-box;
+}
+
+
+.services {
+
+	text-align: center;
+	margin:20px;
+}
+
+
+.services div span {
+
+	margin: auto;
+	border-radius: 50%;
+}
+
+
+.services div::after {
+
+	left: calc(50% - 15px);
+}
+
+
+.about_content {
+	margin-top: 50px;
+}
+
+
+.blog_content {
+	margin-bottom: 50px;
+	padding-bottom: 50px;
+	border-bottom: 1px solid #0DBF9B;
+}
+
+
+
+
+.blogs .no-border {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	border-bottom: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+/* =====================Start Medium device max-width 768px area================*/
+
+
+@media screen and (max-width: 767.98px) {
+
+.services {
+
+	padding: 50px 80px !important;;
+}
+
+.services div::after {
+
+	left: calc(50% - 15px);
+}
+
+.global_title.w-50.py-5.text-center.mx-auto {
+	width: 80% !important;
+}
+}
+
+/* =====================Start Small device max-width 768px area================*/
+
+
+@media screen and (max-width: 575.98px) {
+
+.caption {
+	padding:50px 50px;
+}
+
+
+
+
+.caption h2 {
+	font-size: 35px;
+}
+
+
+
+.global_title h2 {
+	font-size: 30px;
+}
+
+
+
+.services {
+	padding: 40px 50px !important;
+}
+
+
+
+
+
+
+
+}
